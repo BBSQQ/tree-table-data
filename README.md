@@ -152,7 +152,7 @@ class TreeTable {
 * tableData 就是 input 中给出的数据库存的那种数据
 * hierarchy 则是你想定义的层级关系。`['typeClass', 'model', 'color']` 三级两级甚至多级都可以，重点是要按顺序。
 
-2. init的时候发生了两件事：
+2. init的时候发生了三件事：
 * 调用this.graph() 先把数据格式整理成类似图的层级数据格式
 ```
 {
